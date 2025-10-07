@@ -6,7 +6,7 @@ const orderForm = document.getElementById('infomation-form');
 const productsURL = 'https://script.google.com/macros/s/XXXXXXX/exec?action=getProducts';
 // URL Apps Script ที่จะรับออเดอร์
 const submitURL = 'https://script.google.com/macros/s/XXXXXXX/exec';
-
+//
 fetch(productsURL)
   .then(res => res.json())
   .then(products => {
